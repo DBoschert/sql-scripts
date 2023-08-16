@@ -97,9 +97,9 @@ create table RequestLine(
 GO
 
 insert RequestLine (RequestId, ProductId, Quantity)
-Values (2, 2, 10),
-(3,3, 11),
-(4,4, 2);
+Values (1, 1, 10),
+(2,2, 11),
+(3,3, 2);
 
 go
 --insert table1 (name) values ('test');
